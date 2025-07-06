@@ -5,3 +5,10 @@ declare interface User {
     email: string;
     role: UserRole;
 }
+
+declare type MyResponseObj = {
+    statusCode: number,
+    timestamp: string,
+    path: string,
+    response: string | object,
+}
